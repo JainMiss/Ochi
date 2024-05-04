@@ -2,17 +2,17 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className='  flex gap-20 w-full h-screen bg-zinc-900  p-20  font-["Founders_Grotesk_consoled"]'>
-      <div className="w-1/2  h-full flex flex-col justify-between">
+    <div className='mt-4  flex flex-wrap sm:flex-nowrap gap-2 w-full h-full bg-zinc-900  p-2  font-["Founders_Grotesk_consoled"]'>
+      <div className="w-full  h-[25vh] sm:h-[50vh] flex  justify-between sm:flex-col">
         <div className="heading">
-          <h1 className="text-[8vw]  font-semibold uppercase leading-none -mb-10 ">
+          <h1 className="text-[8vw]  font-semibold uppercase leading-none ">
             {" "}
-            Eye--
+            Eye-
           </h1>
           <br />
-          <h1 className="text-[8vw]  font-semibold uppercase leading-none -mb-10">
+          <h1 className="text-[8vw]  font-semibold uppercase leading-none ">
             {" "}
-            Opening-
+            Opening
           </h1>
         </div>
         <svg
@@ -45,13 +45,13 @@ function Footer() {
         </svg>
       </div>
 
-      <div className="w-1/2 ">
-        <h1 className="text-[6vw]  font-semibold uppercase leading-none -mb-10 ">
+      <div className="w-full">
+        <h1 className="text-[8vw] sm:text-[6vw] font-semibold uppercase leading-none ">
           Presentation
         </h1>
 
-        <div className="flex  font-medium p-5">
-          <div className=" w-1/2 dets font-['Neue_Montreal'] mt-10">
+        <div className="flex flex-end font-medium p-3">
+          <div className=" w-[50vw] dets font-['Neue_Montreal'] mt-9">
             <a
               className="block text-sm font-light"
               href="https://www.facebook.com/login/"
@@ -89,7 +89,7 @@ function Footer() {
             </a>
           </div>
 
-          <div className="w-1/2 dets font-['Neue_Montreal'] mt-10">
+          <div className="w-[25vh] dets font-['Neue_Montreal'] mt-5 p-4">
             <a
               className="block text-sm font-light"
               href="https://www.linkedin.com/login"
