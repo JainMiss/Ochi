@@ -2,7 +2,7 @@ import React from "react";
 
 function Card() {
   return (
-    <div className="w-full   h-full bg-white  flex   flex-wrap   item-center px-2 gap-2">
+    <div className="w-full   flex  h-full bg-white     flex-wrap   item-center px-2 gap-2">
       <div className="cardcontainer   w-full h-full">
         <div className="card  relative  rounded-xl w-full bg-[#004D43] h-[50vh] sm:h-[75vh] flex items-center justify-center px-5">
           <img
@@ -15,7 +15,7 @@ function Card() {
           </button>
         </div>
       </div>
-      
+
       <div className="cardcontainer  flex  flex-wrap sm:flex-nowrap gap-2 h-full  w-full  ">
         <div className="card  relative  rounded-xl w-full bg-[#531e2a] h-[50vh] sm:h-[75vh] flex items-center justify-center">
           <img
@@ -35,7 +35,7 @@ function Card() {
             alt=""
           />
           <button className="absolute  uppercase rounded-full  px-1 border-2 left-1 bottom-2 ">
-           Business Bootcamp
+            Business Bootcamp
           </button>
         </div>
       </div>
